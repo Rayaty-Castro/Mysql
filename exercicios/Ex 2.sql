@@ -1,0 +1,1 @@
+SELECT assinatura_id, PERIOD_DIFF(202609, DATE_FORMAT(data_inicio, '%Y%m')) AS meses_ativa FROM assinaturas WHERE status = 'Ativa';

@@ -1,0 +1,1 @@
+SELECT assinatura_id, data_inicio, LAST_DAY(data_inicio) AS ultimo_dia_mes FROM assinaturas;

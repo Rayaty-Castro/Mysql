@@ -1,0 +1,1 @@
+SELECT cliente_id, CONCAT('***', SUBSTRING(cpf, 4)) AS cpf_mascarado FROM clientes;

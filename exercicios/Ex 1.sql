@@ -1,0 +1,1 @@
+SELECT cliente_id, CONCAT(LOWER(SUBSTRING(TRIM(nome), 1, 3)), cliente_id) AS login_sugerido FROM clientes;
